@@ -10,7 +10,9 @@ class App extends Component
   render() {
     return (
       <div className="App">
-        <Greet />
+        <Greet Name="Mike" />
+        <Greet Name="Nike" />
+        <Greet Name="Like" />
         <Welcome />
         <Hello />
       </div>

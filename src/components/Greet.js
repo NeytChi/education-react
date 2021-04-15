@@ -4,6 +4,12 @@ import React from 'react'
 //     return <h1>Hello World!</h1>
 // }
 
-export const Greet = () => <h1>Hello World!</h1>
+export const Greet = (props) =>
+{
+    console.info(props);
+    return <h1>Hello World, {props.Name}!</h1>;
+}
+
+
 
 // export default Greet
