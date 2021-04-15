@@ -13,7 +13,7 @@ class App extends Component
         <Greet Name="Mike" />
         <Greet Name="Nike" />
         <Greet Name="Like" />
-        <Welcome />
+        <Welcome HeroName="Hero We Are!" />
         <Hello />
       </div>
     );
