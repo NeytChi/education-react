@@ -4,9 +4,11 @@ import React from 'react'
 //     return <h1>Hello World!</h1>
 // }
 
-const Greet = ({Name}) =>
-{
-    return <h1>Hello World, {Name}!</h1>;
+const Greet = props => {
+    const {Name} = props
+    {
+        return <h1>Hello World, {Name}!</h1>;
+    }
 }
 
 
