@@ -20,7 +20,8 @@ class EventBind extends Component {
         return (
             <div>
                 <div>{this.state.message}</div>
-               <button onClick={this.GoodBye.bind(this)}>Click</button> 
+               {/* <button onClick={this.GoodBye.bind(this)}>Click</button>*/}
+               <button onClick={() => this.GoodBye()}>Click</button>
             </div>
         )
     }
