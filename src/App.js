@@ -10,13 +10,15 @@ import FunctionalClick from './components/FunctionalClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
+import UserGreetings from './components/UserGreetings';
 
 class App extends Component
 {
   render() {
     return (
       <div className="App">
-          <ParentComponent />
+        <UserGreetings />
+          {/*<ParentComponent />*/}
           {/*<EventBind/>*/}
       </div>
     );
