@@ -8,6 +8,8 @@ class EventBind extends Component {
         this.state = {
             message : 'Hello'
         }
+
+        this.GoodBye = this.GoodBye.bind(this)
     }
 
     GoodBye(props) {
@@ -21,7 +23,8 @@ class EventBind extends Component {
             <div>
                 <div>{this.state.message}</div>
                {/* <button onClick={this.GoodBye.bind(this)}>Click</button>*/}
-               <button onClick={() => this.GoodBye()}>Click</button>
+               {/*<button onClick={() => this.GoodBye()}>Click</button>*/}
+               <button onClick={this.GoodBye}>Click</button>
             </div>
         )
     }
