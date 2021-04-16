@@ -9,10 +9,10 @@ class EventBind extends Component {
             message : 'Hello'
         }
 
-        this.GoodBye = this.GoodBye.bind(this)
+        /*{this.GoodBye = this.GoodBye.bind(this)}*/
     }
 
-    GoodBye(props) {
+    GoodBye = () => {
         this.setState({
             message: "Goodbye!"
         })
