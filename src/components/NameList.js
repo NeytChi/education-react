@@ -27,7 +27,7 @@ function NameList() {
             age: 35,
             skill : 'Ruby'
         }]
-    const personList = persons.map(person => <Person person={person}/>)
+    const personList = persons.map((person, index) => <Person person={person} index={index}/>)
     return <div>{personList}</div>
 }
 
